@@ -5,7 +5,7 @@ version =
   |> File.read!
   |> String.trim
 
-pkg = :nerves_system_rpi0
+pkg = :rosetta_rpi0
 
 config pkg, :nerves_env,
   type: :system,
