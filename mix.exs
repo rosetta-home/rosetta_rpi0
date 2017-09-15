@@ -6,7 +6,7 @@ defmodule NervesSystemRpi0.Mixfile do
     |> String.trim
 
   def project do
-    [app: :nerves_system_rpi0,
+    [app: :rosetta_rpi0,
      version: @version,
      elixir: "~> 1.4",
      compilers: Mix.compilers ++ [:nerves_package],
@@ -35,9 +35,9 @@ defmodule NervesSystemRpi0.Mixfile do
   end
 
   defp package do
-    [maintainers: ["Timothy Mecklem", "Frank Hunleth"],
+    [maintainers: ["Christopher Coté"],
     files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs_overlay", "fwup.conf", "cmdline.txt", "linux-4.4.defconfig", "config.txt", "post-createfs.sh"],
      licenses: ["Apache 2.0"],
-     links: %{"Github" => "https://github.com/nerves-project/nerves_system_rpi0"}]
+     links: %{"Github" => "https://github.com/rosetta-home/rosetta_rpi0"}]
   end
 end
