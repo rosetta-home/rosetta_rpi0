@@ -23,7 +23,7 @@ defmodule RosettaRpi0.Mixfile do
   defp deps do
     [
       {:nerves, "~> 0.7", runtime: false },
-      {:nerves_system_br, "~> 0.13.7", runtime: false },
+      {:nerves_system_br, "~> 0.13.8", runtime: false },
       {:nerves_toolchain_armv6_rpi_linux_gnueabi, "~> 0.11.0", runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
